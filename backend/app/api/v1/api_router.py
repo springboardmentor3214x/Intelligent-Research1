@@ -15,6 +15,7 @@ from app.api.v1.endpoints import (
     admin,
     command_center,
     notifications,
+    dashboard,
 )
 
 api_router = APIRouter()
@@ -34,6 +35,7 @@ api_router.include_router(executive_reports.router, prefix="/reports", tags=["Ex
 api_router.include_router(admin.router, prefix="/admin", tags=["Administration & Governance"])
 api_router.include_router(command_center.router, prefix="/command-center", tags=["Command Center & Strategic Hub"])
 api_router.include_router(notifications.router, prefix="/notifications", tags=["Notification & Alert System"])
+api_router.include_router(dashboard.router, prefix="/dashboard", tags=["Dashboard & Analytics"])
 
 
 

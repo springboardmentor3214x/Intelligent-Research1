@@ -23,6 +23,7 @@ describe("Module 3: Paper Recommendations & Research Gap Discovery Contracts & T
           primary_domain: "Quantum Technologies",
           year: 2024,
           authors: "Dr. Vance Adams, Dr. Sarah Connor",
+          citation_count: 45,
           relevance_score: 82.5,
           reasons: [
             "Matches research domain: Quantum Technologies (+40.0 pts)",
@@ -37,6 +38,7 @@ describe("Module 3: Paper Recommendations & Research Gap Discovery Contracts & T
           primary_domain: "Quantum Technologies",
           year: 2025,
           authors: "Dr. Vance Adams",
+          citation_count: 12,
           relevance_score: 55.0,
           reasons: [
             "Matches research domain: Quantum Technologies (+40.0 pts)",
